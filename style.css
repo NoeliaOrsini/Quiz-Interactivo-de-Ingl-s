@@ -106,29 +106,53 @@ footer {
   margin-top: auto;
 }
 
-/* 📱 Diseño responsive para móviles */
-@media (max-width: 600px) {
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;  /* Menos espacio en pantallas pequeñas */
+  }
+
   h1 {
-    font-size: 6vw;
+    font-size: 1.5em;  /* Reduce el tamaño del título */
   }
 
-  .button-container button,
-  #options button,
-  #next-button,
-  #restart-button,
-  #back-button {
-    font-size: 5vw;
-    padding: 12px;
-    width: 90%;
-    max-width: 300px;
+  .button-container button {
+    font-size: 18px;  /* Ajusta el tamaño de los botones */
+    padding: 12px 25px;  /* Reduce el padding */
   }
 
-  #feedback {
-    font-size: 4.5vw;
+  #options button {
+    font-size: 16px;  /* Ajusta el tamaño de los botones en el quiz */
+    padding: 8px 18px;  /* Reduce el padding */
+  }
+
+  #next-button, #restart-button, #back-button {
+    font-size: 14px;  /* Reduce el tamaño de los botones */
+    padding: 8px 20px;  /* Ajusta el padding */
   }
 
   footer {
-    font-size: 4vw;
-    padding: 15px;
+    font-size: 14px;  /* Ajusta el tamaño del texto en el footer */
+  }
+}
+
+/* Media Query para pantallas aún más pequeñas (móviles muy pequeños) */
+@media (max-width: 480px) {
+  .button-container button {
+    font-size: 16px;  /* Reduce aún más el tamaño de los botones */
+    padding: 10px 20px;  /* Reduce el padding aún más */
+  }
+
+  h1 {
+    font-size: 1.2em;  /* Reduce el tamaño del título */
+  }
+
+  #options button {
+    font-size: 14px;  /* Reduce el tamaño de los botones */
+  }
+
+  #next-button, #restart-button, #back-button {
+    font-size: 12px;  /* Ajusta el tamaño de los botones */
+    padding: 6px 18px;  /* Reduce el padding */
   }
 }
