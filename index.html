@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>English Practice Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎓 English Practice Game</h1>
+
+  <div class="button-container">
+    <button onclick="startQuiz('verbToBe')">Practice Verb To Be </button>
+    <button onclick="startQuiz('personalQuestions')">Practice Personal Questions</button>
+    <button onclick="startQuiz('pronouns')">Practice Pronouns</button>
+  </div>
+
+  <div id="quiz-container">
+    <h2 id="question-text"></h2>
+    <div id="options"></div>
+    <div id="feedback"></div>
+    
+    <!-- Botón Next -->
+    <button id="next-button" style="display:none;" onclick="nextQuestion()">Next</button>
+
+    <!-- Botón Play Again -->
+    <button id="restart-button" style="display:none;" onclick="restartQuiz()">Play Again</button>
+
+    <!-- Nuevo botón Back para regresar al menú -->
+    <button id="back-button" style="display:none;" onclick="showMenu()">Back to Menu</button>
+  </div>
+
+  <footer>
+    <p>Made by Giuliano & Noelia ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

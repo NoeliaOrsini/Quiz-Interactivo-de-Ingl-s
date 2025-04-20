@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('assets/fondo.jpg'); 
+  background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;  
+}
+
+h1 {
+  color: #333;
+}
+
+.button-container {
+  margin: 30px 0;
+}
+
+.button-container button {
+  font-size: 20px;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #45a049;
+}
+
+#quiz-container {
+  margin-top: 30px;
+}
+
+#options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #007bb5;
+}
+
+#feedback {
+  font-size: 18px;
+  margin: 15px;
+}
+
+#next-button, #restart-button, #back-button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: none;
+}
+
+#next-button:hover, #restart-button:hover, #back-button:hover {
+  background-color: #f44336; 
+}
+
+#back-button {
+  font-size: 15px;
+  padding: 10px 25px;
+  margin: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;  
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none; 
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px; 
+  font-family: Arial, sans-serif;  
+  color: black;
+  margin-top: auto;  /* Asegura que quede en la parte inferior */
+  border: none;  
+}
