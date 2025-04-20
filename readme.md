@@ -6,13 +6,7 @@ Este proyecto es un mini juego de preguntas en inglés, pensado para estudiar de
 
 ## 📌 Estructura del Proyecto
 
-El proyecto se organiza en tres archivos principales:
-
-├── assets
-│   └── fondo.jpg
-├── index.html
-├── style.css
-└── script.js
+El proyecto se organiza en cuatro archivos principales:
 
 - `assets` → contiene la imagen del fondo del juego.
 - `index.html` → estructura básica del juego.
@@ -63,11 +57,7 @@ Este quiz fue pensado como una herramienta para que Giuliano pueda prepararse pa
 
 ---
 
-## Video de su funcionamiento
-Te invito a ver el funcionamiento de programa en el siguiente video:
-
-
-Y a probarlo en el siguiente link:
+## Te invito a probar el funcionamiento en el siguiente link:
 
 https://noeliaorsini.github.io/Quiz-Interactivo-de-Ingl-s/
 
