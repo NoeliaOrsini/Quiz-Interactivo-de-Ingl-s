@@ -1,15 +1,22 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('assets/fondo.jpg'); 
-  background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
-  background-position: center; /* Centra la imagen */
+  background-size: cover;
+  background-position: center;
   text-align: center;
   padding: 20px;
-  min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: black;  
+  color: black;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -74,7 +81,7 @@ h1 {
 }
 
 #next-button:hover, #restart-button:hover, #back-button:hover {
-  background-color: #f44336; 
+  background-color: #f44336;
 }
 
 #back-button {
@@ -83,20 +90,45 @@ h1 {
   margin: 16px;
   border: none;
   border-radius: 8px;
-  background-color: #4CAF50;  
+  background-color: #4CAF50;
   color: white;
   cursor: pointer;
   transition: 0.3s;
-  display: none; 
+  display: none;
 }
-
 
 footer {
   padding: 20px;
   text-align: center;
-  font-size: 18px; 
-  font-family: Arial, sans-serif;  
+  font-size: 18px;
+  font-family: Arial, sans-serif;
   color: black;
-  margin-top: auto;  /* Asegura que quede en la parte inferior */
-  border: none;  
+  margin-top: auto;
+}
+
+/* 📱 Diseño responsive para móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 6vw;
+  }
+
+  .button-container button,
+  #options button,
+  #next-button,
+  #restart-button,
+  #back-button {
+    font-size: 5vw;
+    padding: 12px;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  #feedback {
+    font-size: 4.5vw;
+  }
+
+  footer {
+    font-size: 4vw;
+    padding: 15px;
+  }
 }

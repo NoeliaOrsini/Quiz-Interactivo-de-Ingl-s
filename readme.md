@@ -64,10 +64,12 @@ Este quiz fue pensado como una herramienta para que Giuliano pueda prepararse pa
 ---
 
 ## Video de su funcionamiento
-Te invito a ver el funcionamiento de programa en el siguiente video
+Te invito a ver el funcionamiento de programa en el siguiente video:
 
-Y a probarlo en el siguiente link
 
+Y a probarlo en el siguiente link:
+
+https://noeliaorsini.github.io/Quiz-Interactivo-de-Ingl-s/
 
 ## 👩🏻‍💻👦🏻 Sobre Nosotros
 
